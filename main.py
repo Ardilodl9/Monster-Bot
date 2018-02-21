@@ -5,12 +5,17 @@ import monsters
 client = discord.Client()
 pref = '?'
 monster = 'monster'
+print('Starting MonsterBot!')
+print('enter bot Token: ')
+BOTCODE = input()
+print('Now wait i am connecting...')
 @client.event
 async def on_ready():
-    print ('BOT ONLINE - Olá Mundo!')
+    print ('BOT ONLINE - I AM READY!')
     print (client.user.name)
     print (client.user.id)
-    print ('-------Key-------')
+    print ('-------Created by: JOGANDO-------')
+    print ('-------   is.gd/JOGANDO   -------')
 
 @client.event
 async def on_message(message):
@@ -37,7 +42,7 @@ async def on_message(message):
     if message.content.lower().startswith(pref + monster + ' yian kut-ku'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
         await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/yiankutku.jpg")
-        await client.send_message(message.channel,monsters.char.yiankutkua)
+        await client.send_message(message.channel,monsters.char.yiankutku)
     if message.content.lower().startswith(pref + monster + ' blue yian kut-ku'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
         await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/bluekutku.jpg")
@@ -50,5 +55,5 @@ async def on_message(message):
 
 
 
-
-client.run('NDEzNzk0ODU0NzAzOTg4NzM3.DWeAAw.9UAZRNxAZgHgP5gDM-wBnlXlA4c')
+client.run(BOTCODE)
+#client.run('NDEzNzk0ODU0NzAzOTg4NzM3.DWeAAw.9UAZRNxAZgHgP5gDM-wBnlXlA4c')
