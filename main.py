@@ -1,5 +1,6 @@
 import discord
 import asyncio
+import monsters
 
 client = discord.Client()
 pref = '?'
@@ -205,104 +206,12 @@ async def on_message(message):
     if message.content.lower().startswith(pref + monster + ' blue yian kut-ku'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
         await client.send_message(message.channel,"https://orig00.deviantart.net/6fb6/f/2018/046/4/1/pink_fatalis_scan_41_by_keyditor-dc39f2d.jpg")
-        await client.send_message(message.channel,"**```"
-                                                  "---------------------------------------------"
-                                                  "\n```**"
-                                                  "\n**Nome:** Blue Yian Kut-Ku | Em japonês: イャンクック (Iyankukku)."
-                                                  "\n**Espécie:** Bird Wyvern."
-                                                  "\n**Elemento:** :fire: Fogo."
-                                                  "\n**Status:** :fire: Queimadura."
-                                                  "\n**Fraqueza:** :droplet: Água e :zap: Raio."
-                                                  "\n**Movimentação:** Move-se andando normalmente ou Voando."
-                                                  "\n**Ataques:** Frontais bicando, correndo ou jogando bolas de fogo. Laterais bicando e dando rabadas. Algumas vezes decolando e dando rasantes"
-                                                  "\n**Dicas:** Quebre as orelhas com uma Greatsword ou similar, em baixo do pescoço é um ponto cego! Abuse disso para dar o maior dano possivel, mas tome cuidado com ataques giratorios."
-                                                  "\n**Bagagem necessaria:** Nenhuma, Nem mesmo as que a missão lhe proporciona! Afinal é só um Kut-ku :troll: ."
-                                                  "\n"
-                                                  "\n**Drops:** (Usando Sonic Bomb na sua frente)"
-                                                  "\nWyvern Tears	    74%"
-                                                  "\nBlue Kut-Ku Scl	16%"
-                                                  "\nKut-Ku Ear	        10%"
-                                                  "\n"
-                                                  "\n**Carves:** "
-                                                  "\n**--- Corpo ---**"
-                                                  "\nBlue Kut-Ku Scl	47%"
-                                                  "\nBlue Kut-Ku Shl	35%"
-                                                  "\nKut-Ku Webbing	    15%"
-                                                  "\nGiant Beak	         3%"
-                                                  "\n**-------------**"
-                                                  "\n"
-                                                  "\n**Recompença de Captura:**"
-                                                  "\nBlue Kut-Ku Shl	36%"
-                                                  "\nMed Monster Bone x2	27%"
-                                                  "\nScreamer x2	24%"
-                                                  "\nFlame Sac	10%"
-                                                  "\nGiant Beak	3%"
-                                                  "\n"
-                                                  "\n**Recompensas de Feridas:**"
-                                                  "\nOrelhas:  "
-                                                  "\n        Kut-Ku Ear	        50%"
-                                                  "\n        Blue Kut-Ku Scl x3	50%"
-                                                  "\n"
-                                                  "\n**```"
-                                                  "---------------------------------------------"
-                                                  "\n```**"
-        )
-    if message.content.lower().startswith(pref + monster + ' yian garugaa'):
-        await client.send_message(message.channel,"**Aanalise de Monstro...**")
+        await client.send_message(message.channel,monsters.char.blueyiankutku)
+    if message.content.lower().startswith(pref + monster + ' yian garuga'):
+        await client.send_message(message.channel,"**Analise de Monstro...**")
         await client.send_message(message.channel,"https://vignette.wikia.nocookie.net/monsterhunter/images/c/c5/MHRoC-Yian_Garuga_Card_001.jpg")
-        await client.send_message(message.channel,"**```"
-                                                  "---------------------------------------------"
-                                                  "\n```**"
-                                                  "\n**Nome:** Yian Garuga | Em japonês: イャンガルルガ (Iyangaruruga)."
-                                                  "\n**Espécie:** Bird Wyvern."
-                                                  "\n**Elemento:** :fire: Fogo."
-                                                  "\n**Status:** :snake: Envenenamento."
-                                                  "\n**Fraqueza:** :droplet: Água."
-                                                  "\n**Movimentação:** Move-se andando normalmente ou Voando."
-                                                  "\n**Ataques:** Frontais bicando, correndo ou jogando bolas de Veneno. Laterais bicando e dando rabadas. Algumas vezes decolando e dando rasantes"
-                                                  "\n**Dicas:** Quebre as orelhas com uma Greatsword ou similar, em baixo do pescoço é um ponto cego! Abuse disso para dar o maior dano possivel, mas tome cuidado com ataques giratorios."
-                                                  "\n**Bagagem necessaria:** Potions, Mega-Potions e Antidotos  ."
-                                                  "\n"
-                                                  "\n**Drops:** (Usando Sonic Bomb na sua frente)"
-                                                  "\nWyvern Tears	    74%"
-                                                  "\nGaruga Scale	    25%"
-                                                  "\nGaruga Wing	     1%"
-                                                  "\n"
-                                                  "\n**Carves:** "
-                                                  "\n**--- Corpo ---**"
-                                                  "\nGaruga Scale	64%"
-                                                  "\nGaruga Shell	28%"
-                                                  "\nGaruga Mane   	 7%"
-                                                  "\nGaruga Wing	 1%"
-                                                  "\n**-------------**"
-                                                  "\n**--- Rabo ---**"
-                                                  "\nGaruga Tail	80%"
-                                                  "\nGaruga Scale	20%"
-                                                  "\n**-------------**"
-                                                  "\n"
-                                                  "\n**Recompença de Captura:**"
-                                                  "\nGaruga Shell x2	90%"
-                                                  "\nSharpened Beak	5%"
-                                                  "\nGaruga Ear	5%"
-                                                  "\n"
-                                                  "\n**Recompensas de Feridas:**"
-                                                  "\nOrelhas: "
-                                                  "\n        Garuga Ear	        80%"
-                                                  "\n        Garuga Scale x3	20%"
-                                                  "\nBico:"
-                                                  "\n        Sharpened Beak	    80%"
-                                                  "\n        Garuga Scale x3	20%"
-                                                  "\nAsas:"
-                                                  "\n        Garuga Wing	    80%"
-                                                  "\n        Garuga Shell x2	20%"
-                                                  "\nRabo: "
-                                                  "\n        Garuga Mane	    80%"
-                                                  "\n        Garuga Shell x2	20%"
-                                                  "\n"
-                                                  "\n**```"
-                                                  "---------------------------------------------"
-                                                  "\n```**"
-        )
+        await client.send_message(message.channel,monsters.char.yiangaruga)
+
 
 
 
