@@ -49,11 +49,35 @@ async def on_message(message):
         await client.send_message(message.channel,monsters.char.blueyiankutku)
     if message.content.lower().startswith(pref + monster + ' yian garuga'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
-        await client.send_message(message.channel,"https://vignette.wikia.nocookie.net/monsterhunter/images/c/c5/MHRoC-Yian_Garuga_Card_001.jpg")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/garuga.jpg")
         await client.send_message(message.channel,monsters.char.yiangaruga)
+    if message.content.lower().startswith(pref + monster + ' gypceros'):
+        await client.send_message(message.channel,"**Analise de Monstro...**")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/gypceros.jpg")
+        await client.send_message(message.channel,monsters.char.gypceros)
+    if message.content.lower().startswith(pref + monster + ' purple gypceros'):
+        await client.send_message(message.channel,"**Analise de Monstro...**")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/purplegypceros.jpg")
+        await client.send_message(message.channel,monsters.char.purplegypceros)
+    if message.content.lower().startswith(pref + monster + ' hypnocatrice'):
+        await client.send_message(message.channel,"**Analise de Monstro...**")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/hypnocatrice.jpg")
+        await client.send_message(message.channel,monsters.char.hypnocatrice)
+    if message.content.lower().startswith(pref + monster + ' rathian'):
+        await client.send_message(message.channel,"**Analise de Monstro...**")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/rathian.jpg")
+        await client.send_message(message.channel,monsters.char.rathian)
+    if message.content.lower().startswith(pref + monster + ' pink rathian'):
+        await client.send_message(message.channel,"**Analise de Monstro...**")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/pinkrathian.jpg")
+        await client.send_message(message.channel,monsters.char.pinkrathian)
+    if message.content.lower().startswith(pref + monster + ' gold rathian'):
+        await client.send_message(message.channel,"**Analise de Monstro...**")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/goldrathian.jpg")
+        await client.send_message(message.channel,monsters.char.goldrathian)
 
 
 
 
-client.run(BOTCODE)
-#client.run('NDEzNzk0ODU0NzAzOTg4NzM3.DWeAAw.9UAZRNxAZgHgP5gDM-wBnlXlA4c')
+#client.run(BOTCODE)
+client.run('NDEzNzk0ODU0NzAzOTg4NzM3.DWeAAw.9UAZRNxAZgHgP5gDM-wBnlXlA4c')
