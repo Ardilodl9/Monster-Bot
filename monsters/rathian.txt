@@ -1,0 +1,50 @@
+**```---------------------------------------------```**
+**Nome:** Rathian | Em japonês:      (Rioreia).
+**Espécie:** Flying Wyvern
+**Elemento:** :fire: Fire.
+**Status:**  :fire: Queimadura e :snake: Envenenamento.
+**Fraqueza:** :dragon: Dragão e :zap: Raio.
+**Movimentação:** Andando normalmente e Voando
+**Ataques:** Correndo, Dando o "Bixo Piruleta" e Atirando bolas de fogo.
+**Dicas:** Atordoa-lo usando Flashbomb em sua frente, Esquivar sempre para direita e evitar tomar rabadas
+**Bagagem necessaria:** Flashbombs e Antidotos 
+
+**Drops:** (Usando Sonic Bomb na sua frente)
+Wyvern Tears	74%
+Rathian Scale	25%
+Rathian Plate	 1%
+
+**Carves:** 
+**--- Corpo ---**
+Rathian Scale		49%
+Rathian Shell		30%
+FireWyvern Fluid	10%
+Flame Sac			 8%
+Rathian Spike		 2%
+Fire Wyvern Marrow	 1%
+**-------------**
+**--- Calda ---**
+Rathian Scale		59%
+Rathian Shell		22%
+Rathian Spike		 8%
+Monster Bone+		 6%
+Rathian Plate		 3%
+FireWyvrn Marrow	 2%
+**-------------**
+
+**Recompença de Captura:**
+Rathian Scale x2	52%
+Rathian Shell		36%
+FireWyvrn Marrow	10%
+Rathian Plate		 2%
+
+**Recompença de Feridas:**
+Cabeça: 
+Rathian Shell	71%
+Rathian Scale	25%
+Rathian Plate	 4%
+Asas:
+Fire Wyvern Claw	75%
+Wyvern Claw x4		25%
+
+**```---------------------------------------------```**

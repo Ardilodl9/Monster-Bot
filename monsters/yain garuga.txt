@@ -1,0 +1,51 @@
+**```
+---------------------------------------------
+```**
+**Nome:** Yian Garuga | Em japonês:  (Iyangaruruga).
+**Espécie:** Bird Wyvern.
+**Elemento:** :fire: Fogo.
+**Status:** :snake: Envenenamento.
+**Fraqueza:** :droplet: Água.
+**Movimentação:** Move-se andando normalmente ou Voando.
+**Ataques:** Frontais bicando, correndo ou jogando bolas de Veneno. Laterais bicando e dando rabadas. Algumas vezes decolando e dando rasantes
+**Dicas:** Quebre as orelhas com uma Greatsword ou similar, em baixo do pescoço é um ponto cego! Abuse disso para dar o maior dano possivel, mas tome cuidado com ataques giratorios.
+**Bagagem necessaria:** Potions, Mega-Potions e Antidotos  .
+
+**Drops:** (Usando Sonic Bomb na sua frente)
+Wyvern Tears	    74%
+Garuga Scale	    25%
+Garuga Wing	     1%
+
+**Carves:** 
+**--- Corpo ---**
+Garuga Scale	64%
+Garuga Shell	28%
+Garuga Mane   	 7%
+Garuga Wing	 1%
+**-------------**
+**--- Rabo ---**
+Garuga Tail	80%
+Garuga Scale	20%
+**-------------**
+
+**Recompença de Captura:**
+Garuga Shell x2	90%
+Sharpened Beak	5%
+Garuga Ear	5%
+
+**Recompensas de Feridas:**
+Orelhas: 
+        Garuga Ear	        80%
+        Garuga Scale x3	20%
+Bico:
+        Sharpened Beak	    80%
+        Garuga Scale x3	20%
+Asas:
+        Garuga Wing	    80%
+        Garuga Shell x2	20%
+Rabo: 
+        Garuga Mane	    80%
+        Garuga Shell x2	20%
+
+**```---------------------------------------------
+```**

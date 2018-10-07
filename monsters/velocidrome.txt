@@ -1,0 +1,27 @@
+**```---------------------------------------------```**
+**Nome:** Velocidrome | Em japonês:  (Dosuranposu).
+**Espécie:** Bird Wyvern
+**Elemento:** Nenhum
+**Status:** Nenhum.
+**Fraqueza:** :zap:  Raio e :snowflake: Gelo.
+**Movimentação:** Move-se andando normalmente, dá saltos para frente, atrás, esqueda e direita.
+**Ataques:** Sempre frontais, Usando as garras ou saltando.
+**Dicas:** Sempre rolar e atacar lateralmente.
+**Bagagem necessaria:** Nenhuma, apenas as que a missão lhe proporciona.
+
+**Drops:** Nenhum.
+
+**Carves:** 
+**--- Corpo ---**
+Velocidrome Claw	53%
+Velocidrome Hide	30%
+Velociprey Scale	15%
+Velocidrome Skull	2%
+**-------------**
+
+**Recompença de Captura:**
+Velocidrome Hide	56%
+Screamer x2	    39%
+Velocidrome Skull	 5%
+
+**```---------------------------------------------```**

@@ -1,0 +1,27 @@
+**```---------------------------------------------```**
+**Nome:** Gendrome | Em japonês:  (Dosugeneposu).
+**Espécie:** Bird Wyvern
+**Elemento:** Nenhum
+**Status:** :part_alternation_mark: Paralisia.
+**Fraqueza:** :droplet: Água e :snowflake: Gelo.
+**Movimentação:** Move-se andando normalmente, dá saltos para frente, atrás, esqueda e direita.
+**Ataques:** Sempre frontais, Usando as garras ou saltando ( o salto pode causar o Status ).
+**Dicas:** Sempre rolar e atacar lateralmente.
+**Bagagem necessaria:** Nenhuma, apenas as que a missão lhe proporciona.
+
+**Drops:** Nenhum.
+
+**Carves:** 
+**--- Corpo ---**
+Gendrome Hide	48%
+Paralysis Sac	35%
+Genprey Scale	15%
+Gendrome Skull	 2%
+**-------------**
+
+**Recompença de Captura:**
+Gendrome Hide	    56%
+Paralysis Sac x2	39%
+Gendrome Skull	     5%
+
+**```---------------------------------------------```**

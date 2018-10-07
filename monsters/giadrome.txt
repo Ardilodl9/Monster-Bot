@@ -1,0 +1,27 @@
+﻿**```---------------------------------------------```**
+**Nome:** Giadrome | Em japonês:       (Dosugianosu).
+**Espécie:** Bird Wyvern
+**Elemento:** :snowflake: Gelo.
+**Status:** :snowman: Boneco de Neve.
+**Fraqueza:** :fire: Fogo.
+**Movimentação:** Move-se andando normalmente, dá saltos para frente, atrás, esqueda e direita.
+**Ataques:** Sempre frontais, Usando as garras, Saltando ou cuspindo gelo.
+**Dicas:** Sempre rolar e atacar lateralmente.
+**Bagagem necessaria:** Nenhuma, apenas as que a missão lhe proporciona.
+
+**Drops:** Nenhum.
+
+**Carves:** 
+**--- Corpo ---**
+Giadrome Claw	53%
+Giadrome Hide	30%
+Giaprey Scale	15%
+Giadrome Skull	2%
+**-------------**
+
+**Recompença de Captura:**
+Giadrome Hide	56%
+Screamer x2	39%
+Giadrome Skull	 5%
+
+**```---------------------------------------------```**

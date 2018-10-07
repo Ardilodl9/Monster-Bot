@@ -1,0 +1,50 @@
+**```---------------------------------------------```**
+**Nome:** Pink Rathian | Em japonês:        (Rioreia Ashu).
+**Espécie:** Flying Wyvern
+**Elemento:** :fire: Fire.
+**Status:**  :fire: Queimadura e :snake: Envenenamento.
+**Fraqueza:** :dragon: Dragão e :zap: Raio.
+**Movimentação:** Andando normalmente e Voando
+**Ataques:** Correndo, Dando o "Bixo Piruleta" e Atirando bolas de fogo.
+**Dicas:** Atordoa-lo usando Flashbomb em sua frente, Esquivar sempre para direita e evitar tomar rabadas
+**Bagagem necessaria:** Flashbombs e Antidotos 
+
+**Drops:** (Usando Sonic Bomb na sua frente)
+Wyvern Tears		74%
+Pnk Rathian Scl	25%
+Rathian Plate		 1%
+
+**Carves:** 
+**--- Corpo ---**
+Pnk Rathian Scl	49%
+Pnk Rathian Shl	30%
+FireWyvern Fluid	10%
+Flame Sac			 6%
+Fire Wyvern Marrow	 3%
+Rathian Spike		 1%
+**-------------**
+**--- Calda ---**
+Pnk Rathian Scl	56%
+Pnk Rathian Shl	22%
+Rathian Spike		 8%
+FireWyvrn Marrow	 7%
+Monster Bone+		 6%
+Rathian Plate		 1%
+**-------------**
+
+**Recompença de Captura:**
+Pnk Rathian Scl x2	50%
+Pnk Rathian Shl	36%
+FireWyvrn Marrow	10%
+Rathian Plate		 4%
+
+**Recompença de Feridas:**
+Cabeça: 
+Pnk Rathian Shl	73%
+Pnk Rathian Scl	25%
+Rathian Plate	 	 4%
+Asas:
+Fire Wyvern Claw	75%
+Wyvern Claw x4		25%
+
+**```---------------------------------------------```**

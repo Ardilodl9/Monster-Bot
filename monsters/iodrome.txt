@@ -1,0 +1,27 @@
+**```---------------------------------------------```**
+**Nome:** Iodrome | Em japonês:  (Dosuiosu).
+**Espécie:** Bird Wyvern
+**Elemento:** Nenhum.
+**Status:** :snake: Envenenamento.
+**Fraqueza:** :zap:  Raio e :droplet: Água.
+**Movimentação:** Move-se andando normalmente, dá saltos para frente, atrás, esqueda e direita.
+**Ataques:** Sempre frontais, Usando as garras, Saltando ou cuspindo Veneno.
+**Dicas:** Sempre rolar e atacar lateralmente.
+**Bagagem necessaria:** Nenhuma, apenas as que a missão lhe proporciona.
+
+**Drops:** Nenhum.
+
+**Carves:** 
+**--- Corpo ---**
+Iodrome Hide	48%
+Poison Sac 	35%
+Ioprey Scale	15%
+Iodrome Skull	2%
+**-------------**
+
+**Recompença de Captura:**
+Iodrome Hide	56%
+Poison Sac x2  39%
+Iodrome Skull	 5%
+
+**```---------------------------------------------```**

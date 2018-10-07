@@ -1,10 +1,11 @@
 import discord
 import asyncio
 import monsters
+from pathlib import Path
 
 client = discord.Client()
 pref = '?'
-monster = 'monster'
+monster = 'monster '
 #print('Starting MonsterBot!')
 #print('enter bot Token: ')
 #BOTCODE = input()
@@ -24,11 +25,26 @@ async def on_message(message):
         await client.send_message(message.channel, "AEEEEEE POOORRAAAAAAAAAA! DEU BOM CARAIO! BORA FAZER ESSE BOT JDASLDJASLDJASLDLASDJALSKD")
     if message.content.lower().startswith(pref+'game'):
         await client.change_presence(game=discord.Game(name='Informações aos Caçadores!'))
-    if message.content.lower().startswith(pref + monster + ' giadrome'):
-        await client.send_message(message.channel,"**Analise de Monstro...**")
-        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/giadrome.jpg")
-        await client.send_message(message.channel,monsters.char.giadrome)
-    if message.content.lower().startswith(pref + monster + ' velocidrome'):
+    if message.content.lower().startswith(pref + monster):
+        msg = message.content.lower()
+        monstername = msg.replace('?monster ','')
+        testfile = Path("monsters/"+monstername+".txt")
+        print ("/monsters/"+monstername+".txt")
+        if testfile.is_file():
+            monsterfile = open('monsters/'+monstername+'.txt','r',encoding='utf8', errors='ignore')
+            monsterinfo = monsterfile.read()
+            print ("informação requerida sobre: "+monstername)
+            await client.send_message(message.channel,"**Analise de Monstro...**")
+            await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/"+monstername+".jpg")
+            await client.send_message(message.channel,monsterinfo)
+            monsterfile.close()
+        else:
+            print ('error!!')
+            await client.send_message(message.channel,"ERROR 404 Monstro não encontrado")
+            await client.send_message(message.channel,"Verifique se digitou corretamente o nome do monstro!")
+
+### Old code for send monster's info
+"""   if message.content.lower().startswith(pref + monster + ' velocidrome'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
         await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/velocidrome.jpg")
         await client.send_message(message.channel,monsters.char.velocidrome)
@@ -42,15 +58,15 @@ async def on_message(message):
         await client.send_message(message.channel,monsters.char.gendrome)
     if message.content.lower().startswith(pref + monster + ' yian kut-ku'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
-        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/yiankutku.jpg")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/yian kutku.jpg")
         await client.send_message(message.channel,monsters.char.yiankutku)
     if message.content.lower().startswith(pref + monster + ' blue yian kut-ku'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
-        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/bluekutku.jpg")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/blue yian kut-ku.jpg")
         await client.send_message(message.channel,monsters.char.blueyiankutku)
     if message.content.lower().startswith(pref + monster + ' yian garuga'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
-        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/garuga.jpg")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/yian garuga.jpg")
         await client.send_message(message.channel,monsters.char.yiangaruga)
     if message.content.lower().startswith(pref + monster + ' gypceros'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
@@ -70,13 +86,13 @@ async def on_message(message):
         await client.send_message(message.channel,monsters.char.rathian)
     if message.content.lower().startswith(pref + monster + ' pink rathian'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
-        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/pinkrathian.jpg")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/pink rathian.jpg")
         await client.send_message(message.channel,monsters.char.pinkrathian)
     if message.content.lower().startswith(pref + monster + ' gold rathian'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
-        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/goldrathian.jpg")
+        await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/gold rathian.jpg")
         await client.send_message(message.channel,monsters.char.goldrathian)
-
+"""
 
 
 
