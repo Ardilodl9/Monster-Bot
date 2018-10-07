@@ -5,9 +5,9 @@ import monsters
 client = discord.Client()
 pref = '?'
 monster = 'monster'
-print('Starting MonsterBot!')
-print('enter bot Token: ')
-BOTCODE = input()
+#print('Starting MonsterBot!')
+#print('enter bot Token: ')
+#BOTCODE = input()
 print('Now wait i am connecting...')
 @client.event
 async def on_ready():
@@ -19,10 +19,11 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    await client.change_presence(game=discord.Game(name='Informações aos Caçadores!'))
     if message.content.lower().startswith(pref+'teste'):
         await client.send_message(message.channel, "AEEEEEE POOORRAAAAAAAAAA! DEU BOM CARAIO! BORA FAZER ESSE BOT JDASLDJASLDJASLDLASDJALSKD")
     if message.content.lower().startswith(pref+'game'):
-        await client.change_status(game='Informações no chat')
+        await client.change_presence(game=discord.Game(name='Informações aos Caçadores!'))
     if message.content.lower().startswith(pref + monster + ' giadrome'):
         await client.send_message(message.channel,"**Analise de Monstro...**")
         await client.send_message(message.channel,"https://github.com/Keyditor/Monster-Bot/raw/master/imagens/giadrome.jpg")
@@ -79,5 +80,7 @@ async def on_message(message):
 
 
 
-#client.run(BOTCODE)
-client.run('NDEzNzk0ODU0NzAzOTg4NzM3.DWeAAw.9UAZRNxAZgHgP5gDM-wBnlXlA4c')
+with open('Bot-Token.txt', 'r') as BotTokenTxt:
+    BotToken= BotTokenTxt.read()
+client.run(BotToken)
+
